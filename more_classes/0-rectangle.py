@@ -4,5 +4,5 @@ defines a rectangle
 """
 
 
-class Retangle:
+class Rectangle:
     pass
