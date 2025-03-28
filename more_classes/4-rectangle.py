@@ -57,7 +57,5 @@ class Rectangle:
             record_str += '\n'
         return record_str[:-1]
 
-     def __repr__(self):
-        """Return internal string representation of a Rectangle
-        """
+    def __repr__(self):
         return "Rectangle({}, {})".format(self.__width, self.__height)
